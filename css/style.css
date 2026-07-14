@@ -15,17 +15,15 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
     padding: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #F9FAF8;
 }
 
 ul {
@@ -39,5 +37,31 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB
+}
+
+
+.one-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.one-content div {
+    flex-basis: 400px;
+}
+
+.dark {
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.light-text, a {
+    color: #E5E7EB;;
 }
