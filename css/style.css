@@ -12,6 +12,9 @@ body {
     font-family: Roboto, "Courier New", monospace;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .section-one {
@@ -81,7 +84,6 @@ button {
 
 .section-two {
     text-align: center;
-    margin-top: 30px;
 }
 
 .two-title {
@@ -97,10 +99,26 @@ button {
 }
 
 .section-two img {
-    border: 3px solid #3882F6;
-    border-radius: 9px;
     height: 180px;
     width: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 9px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 15px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.customer {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .dark {
@@ -109,6 +127,10 @@ button {
 
 .light-text {
     color: #F9FAF8;
+}
+
+.dark-text {
+    color:#1F2937;
 }
 
 
