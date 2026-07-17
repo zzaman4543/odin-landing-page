@@ -17,6 +17,10 @@ body {
     gap: 30px;
 }
 
+.fill {
+    flex: 1;
+}
+
 .section-one {
     display: flex;
     flex-direction: column;
@@ -152,6 +156,13 @@ a {
 
 .section-four button {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
+    margin-top: -30px;
 }
 
 button {
